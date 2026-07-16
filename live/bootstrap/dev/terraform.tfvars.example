@@ -1,0 +1,8 @@
+aws_access_key = "<YOUR_ACCESS_KEY>"
+aws_secret_key = "<YOUR_SECRET_ACCESS_KEY>"
+aws_region         = "us-west-2"
+terraform_user_arn = "arn:aws:iam::817502249572:user/terraform-bootstrap-admin"
+
+state_bucket_name       = "terraform-tgw-dev-state"
+lock_table_name         = "terraform-tgw-dev-locks"
+prod_terraform_role_arn = "arn:aws:iam::031679887831:role/TerraformExecutionRole"

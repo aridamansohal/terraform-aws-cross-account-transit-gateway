@@ -1,0 +1,6 @@
+aws_access_key = "<YOUR_ACCESS_KEY>"
+aws_secret_key = "<YOUR_SECRET_ACCESS_KEY>"
+aws_region         = "us-west-2"
+terraform_user_arn = "arn:aws:iam::031679887831:user/admin"
+state_bucket_name  = "terraform-tgw-prod-state"
+lock_table_name    = "terraform-tgw-prod-locks"

@@ -1,0 +1,50 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+
+# Keep provider lock file
+!.terraform.lock.hcl
+*.terraform.lock.hcl
+
+# Generated files
+**/graph.svg
+**/plan-graph.svg
+**/schema.json
+**/example.txt
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Logs
+*.log
+
+# Generated documentation/terraform artifacts
+graph.svg
+plan-graph.svg
+schema.json
+example.txt
+
+# Local variable files
+*.tfvars
+*.tfvars.json
+
+# Ignore real tfvars
+**/terraform.tfvars
+
+# Keep example files
+!**/terraform.tfvars.example
